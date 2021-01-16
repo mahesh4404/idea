@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+<link href="/idea_development/css/login.css" rel="stylesheet"
+	type="text/css" />
+<link href="/idea_development/css/login1.css" rel="stylesheet"
+	type="text/css" />
+
+
+
+
+
+
+<style>
+.button {
+	border-radius: 4px;
+	background-color: #34495e;
+	border: none;
+	color: #ffffff;
+	text-align: center;
+	font-size: 28px;
+	padding: 20px;
+	width: 200px;
+	transition: all 0.5s;
+	cursor: pointer;
+	margin: 200px 0px 0px 200px;
+	align-content: center;
+}
+
+.button span {
+	cursor: pointer;
+	display: inline-block;
+	position: relative;
+	transition: 0.5s;
+}
+
+.button span:after {
+	content: '\00bb';
+	position: absolute;
+	opacity: 0;
+	top: 0;
+	right: -20px;
+	transition: 0.5s;
+}
+
+.button:hover span {
+	padding-right: 25px;
+}
+
+.button:hover span:after {
+	opacity: 1;
+	right: 0;
+}
+</style>
+</head>
+<body bgcolor="#95a5a6" >
+	<a href="loginpage.jsp">
+		<button class="button" >
+
+			<span>Investor Login </span>
+		</button>
+	</a>
+
+
+	<a href="loginpage_student.jsp">
+		<button class="button" align="center">
+
+			<span>Student Login </span>
+		</button>
+	</a>
+
+
+
+
+
+</body>
+</html>

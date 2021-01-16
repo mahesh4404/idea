@@ -1,0 +1,30 @@
+@charset "ISO-8859-1";
+body{
+background-color:white;
+}
+#navbar ul{
+padding:16px;
+list-style-type:none;
+border-radius:5px; 
+background-color:pink;
+margin:10px;
+text-align:right;
+}
+#navbar ul li{
+display:inline;
+}
+#navbar ul li a{
+text-decoration:none;
+font-family:karla,georgia,;
+background-color:#6CB9E6;
+border-radius:10px;
+padding:6px;
+margin:10px;
+color:white;
+}
+#navbar ul li a:hover{
+background:linear-gradient(to left,black,white);
+}
+#navbar h3 {
+display:inline;
+}
